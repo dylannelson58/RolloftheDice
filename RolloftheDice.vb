@@ -28,7 +28,7 @@ Module RolloftheDice
         Next                                                                                        'ends the for loop
         Console.WriteLine()                                                                         'ends the line
 
-        Console.WriteLine(StrDup(77, "-"))                                                          'more formatting
+        Console.WriteLine(StrDup(77, "-"))                                                          'more formatting adds 77 dashes
 
         For i = 0 To UBound(randomNumbers)                                                          'sets the values to be between 0 and the upper end value of randomNumbers
             Console.Write(CStr(randomNumbers(i)).PadLeft(6) & "|")                                  'Formatting
