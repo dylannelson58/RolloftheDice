@@ -69,7 +69,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RolloftheDice.vb" />
+    <Compile Include="G:\My Drive\Visual Basic\source\repos\Rollofthedice\RolloftheDice.vb">
+      <Link>RolloftheDice.vb</Link>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
